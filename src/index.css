@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+
+/* Section paddings */
+.section { @apply py-16 md:py-24; }
+.container-xl { @apply container max-w-6xl; }
+.card { @apply rounded-2xl shadow-lg p-6 bg-white/70 dark:bg-slate-900/70 backdrop-blur; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-medium shadow; }
+.btn-primary { @apply btn bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900; }
+.btn-outline { @apply btn border border-slate-300 dark:border-slate-700; }
+.btn-ghost {
+  @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-medium
+          border border-slate-300 bg-white/70 text-slate-700
+          hover:bg-slate-100 active:scale-[0.99]
+          dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-200
+          dark:hover:bg-slate-900;
+}
