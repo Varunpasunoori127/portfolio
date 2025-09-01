@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Section } from "./Section"
-import { ProjectCard } from "./ProjectCard"
+import { ProjectCard } from "./Projectcard"
 
 export function GitHubProjects({ username = "varun127", take = 6 }) {
   const [repos, setRepos] = useState([])

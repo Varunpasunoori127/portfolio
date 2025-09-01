@@ -1,5 +1,5 @@
 import { Section } from "./Section"
-import { ProjectCard } from "./ProjectCard.jsx"
+import { ProjectCard } from "./Projectcard.jsx"
 import { projects } from "../Data/Projects.js"
 
 export function Projects() {
